@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sessión Sistema Gestión Documental</title>
+    <link rel="stylesheet" href="Assets/css/logueo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="Assets/js/jquery-3.5.1.js" charset="utf-8"></script>
+    <script src="Assets/js/section.js" charset="utf-8"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" language="javascript" src="Assets/js/session.js" charset="utf-8"></script>
+  </head>
+<body>
+    <section class="app">
+        <header>
+            <span>SISTEMA DE GESTIÓN DOCUMENTAL</span>
+        </header>
+        <main class="container_view" id="container_view">
+            <div class="container">
+                <div class="header_container" id="header_container">
+                    <div class="toolbar_header" id="toolbar_header">
+                        <span class="toolbar_title">INICIAR SESION</span>
+                    </div>
+                </div>
+
+                <div class="menu_card" id="menu_card">
+                        <form class="form_session" action="" method="post"> 
+                                <div class="user_form">
+                                    <div class="icon">
+                                        <div class="icon_left"><label>Usuario </label></div>
+                                        <div class="icon_right"><i class="fas fa-user-alt"></i></div>
+                                    </div>
+                                    <div class="container_icon">
+                                        <input type="text" name="username" id="username" class="user" placeholder="Usuario">
+                                    </div>
+                                </div>
+                                <div class="password_form">
+                                    <div class="icon">
+                                        <div class="icon_left"><label>Password </label></div>
+                                        <div class="icon_right"><i class="fas fa-key"></i></div>
+                                    </div>
+                                    <div class="container_icon">
+                                        <input type="password" name="pass" id="pass" class="user" placeholder="Password">
+                                    </div>
+                                </div>    
+                        </form>
+                </div>
+
+                <div class="footer_container" id="footer_container">
+                    <button type="button" id="login" class="button_session" value="login"><span>INGRESAR</span></button>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <span>2020</span>
+        </footer>
+    </section>
+</body>
+</html>
